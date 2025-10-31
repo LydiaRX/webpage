@@ -143,7 +143,7 @@ const teamMembers =[
         imageSrc: "https://upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg",
         name: "Sînică Alboaie",
         title:"Chief Technology Lead",
-        bio: "Sînică has a background in software development and research. He holds a PHD in Privacy Preserving Technologies and Blockchain, being the initiator and leader of the Open Source OpenDSU project, which has been developed and utilized in European research projects and enterprise blockchain solutions within the pharmaceutical industry. Sînică is also an experienced entrepreneur, having founded Axiologic Research in 2023, and has coordinated dozens of projects in roles such as CTO or Technical Product Manager for Axiologic\'s clients and collaborators. ",
+        bio: "Sînică has a background in software development and research. He holds a PHD in Privacy Preserving Technologies and Blockchain, being the initiator and leader of the Open Source OpenDSU project, which has been developed and utilized in European research projects and enterprise blockchain solutions within the pharmaceutical industry. Sînică is also an experienced entrepreneur, having founded Axiologic Research in 2003, and has coordinated dozens of projects in roles such as CEO and Technical Product Manager for Axiologic\'s clients and collaborators. ",
     },
     {
         imageSrc: "https://upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg",
