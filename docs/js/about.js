@@ -31,11 +31,11 @@ export const renderAboutPage = () => {
                                     At LydiaRx, artificial intelligence is not a feature layer: it is our architectural foundation. We are building the infrastructure for next-generation pharmaceutical operations, where AI-native systems drive measurable improvements across drug discovery, regulatory compliance, manufacturing quality, and supply chain integrity. Our technology addresses the pharmaceutical industry's most pressing operational challenges: reducing time-to-market, ensuring regulatory certainty, eliminating counterfeit risk, and delivering verifiable patient safety at scale. 
                                 </p>
                             </div>
-                            <div className="margin-vertical margin-xxlarge">
+                            <!-- <div className="margin-vertical margin-xxlarge">
                                 <div className="about_image-wrapper">
                                     <img src={AboutImage} className="about_image"/>
                                 </div>
-                            </div>
+                            </div> -->
                             <div className="max-width-large">
                                 <h2>What We Do</h2>
                                 <div className="padding-bottom"/>                        
