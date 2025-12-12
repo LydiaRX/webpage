@@ -11,7 +11,7 @@ export const renderAboutPage = () => {
                             About Us
                         </h1>
                         <div class="padding-bottom"></div>
-                        <p class="Paragraph">Welcome to the dawn of a new era in efficiency and transparency</p>
+                        <p class="Paragraph">We are building the AI infrastructure layer for the future of life sciences.</p>
                     </div>
                     <div class="header_shapes">
                         <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="header-shape-image"/>
