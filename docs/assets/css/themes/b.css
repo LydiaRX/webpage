@@ -223,6 +223,7 @@ a:hover {
 .dropdownItem:hover {
     background-color: rgba(0, 128, 128, 0.04);
     color: var(--accent-teal);
+    padding-left: 10px;
 }
 
 .dropdownItem:hover::before {

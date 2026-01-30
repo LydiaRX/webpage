@@ -26,10 +26,11 @@ export const renderAboutPage = () => {
                         <div class="about_component">
                             <div className="max-width-large">   
                                 <h2>About LydiaRx</h2>
-                                <div className="padding-bottom"/>
+                                <div className="padding-bottom"></div>
                                 <p>
                                     At LydiaRx, artificial intelligence is not a feature layer: it is our architectural foundation. We are building the infrastructure for next-generation pharmaceutical operations, where AI-native systems drive measurable improvements across drug discovery, regulatory compliance, manufacturing quality, and supply chain integrity. Our technology addresses the pharmaceutical industry's most pressing operational challenges: reducing time-to-market, ensuring regulatory certainty, eliminating counterfeit risk, and delivering verifiable patient safety at scale. 
                                 </p>
+                                   <div className="padding-bottom"></div>  
                             </div>
                             <!-- <div className="margin-vertical margin-xxlarge">
                                 <div className="about_image-wrapper">
@@ -37,15 +38,16 @@ export const renderAboutPage = () => {
                                 </div>
                             </div> -->
                             <div className="max-width-large">
-                                <h2>What We Do</h2>
-                                <div className="padding-bottom"/>                        
+                                <h3>What We Do</h3>
+                                <div className="padding-bottom"></div>                        
                                 <p>
                                     LydiaRx provides enterprise-grade, AI-native platforms that modernize pharmaceutical operations from discovery through distribution. Our solutions are purpose-built for regulated environments, delivering quantifiable efficiency gains, risk reduction, and competitive advantage to global pharmaceutical enterprises, regulatory bodies, and healthcare systems.
                                 </p>
-                                <div className="padding-bottom"/>
+                                <div className="padding-bottom"></div>
                                 <h3>Core Platform Suite</h3>                                        
+                                
+                                <div className="padding-bottom"></div>
                                 <p>
-                                <div className="padding-bottom"/>
                                 <strong>Discovery Studio</strong> accelerates pharmaceutical R&D through AI-powered literature synthesis, patent analysis, and candidate design. The platform reduces research timelines while maintaining scientific rigor and full audit trails for regulatory submission.
                                 </p>
                                 <div className="padding-bottom small"/>
@@ -56,9 +58,9 @@ export const renderAboutPage = () => {
                                 <p>
                                     <strong>R&D Ops Platform</strong> serves as the intelligent orchestration layer for pharmaceutical operations, integrating disparate systems into a unified, AI-driven infrastructure that ensures data integrity, operational efficiency, and enterprise scalability.
                                 </p>
-                                <div className="padding-bottom"/>
+                                <div className="padding-bottom"></div>
                                 <h3>Supply Chain & Patient Information Solutions</h3>
-                                <div className="padding-bottom"/>
+                                <div className="padding-bottom"></div>
                                 <p>
                                     <strong>Track & Trace</strong> delivers enterprise-scale serialization and supply chain visibility, enabling real-time monitoring from manufacturing through patient delivery. Our solutions support national and regional regulatory compliance frameworks including EU FMD, US DSCSA, and emerging global standards, providing governments and pharmaceutical companies with comprehensive counterfeit protection and supply chain assurance.
                                 </p>
@@ -66,19 +68,19 @@ export const renderAboutPage = () => {
                                 <p>
                                     <strong>Electronic Product Information (ePI)</strong>, developed through the PharmaLedger consortium, digitizes patient information leaflets while maintaining regulatory compliance across jurisdictions. This infrastructure eliminates paper-based processes, reduces recall risk from outdated inserts, and ensures patients access current, accurate medicine information. The result is both operational savings and enhanced patient safety.
                                 </p>
-                                <div className="padding-bottom"/>
+                                <div className="padding-bottom"></div>
                                 <h3>Professional Services</h3>
-                                <div className="padding-bottom"/>
+                                <div className="padding-bottom"></div>
                                 <p>
                                     Beyond platform deployment, LydiaRx's consulting practice addresses the organizational, technical, and regulatory complexities of pharmaceutical digital transformation. Our consultants combine deep domain expertise in pharmaceutical operations with technical implementation experience, enabling clients to navigate serialization mandates, validation requirements, and quality system modernization. We architect solutions that bridge legacy infrastructure with next-generation AI capabilities, ensuring continuity of operations while achieving step-change improvements in compliance efficiency and operational visibility.
                                 </p>
-                                <div className="padding-bottom"/>
+                                <div className="padding-bottom"></div>
                                 <h3>Value Proposition</h3>
-                                <div className="padding-bottom"/>
+                                <div className="padding-bottom"></div>
                                 <p>
                                     Our clients (pharmaceutical manufacturers, national regulatory bodies, and healthcare systems) deploy LydiaRx solutions to achieve concrete operational outcomes: compressed development timelines, reduced compliance overhead, eliminated supply chain vulnerabilities, and strengthened patient safety frameworks. These improvements translate to measurable ROI through reduced operational expenditure, accelerated revenue realization, and mitigated regulatory risk.
                                 </p>
-                                <div className="padding-bottom"/>
+                                <div className="padding-bottom"></div>
                                 <p className="text-weight-semibold">
                                     LydiaRx delivers the technological infrastructure required for modern pharmaceutical operations. Our AI-native architecture, regulatory-grade security, and enterprise integration capabilities position us as the strategic technology partner for organizations modernizing pharmaceutical R&D, manufacturing, and distribution operations at scale.
                                 </p>
@@ -216,13 +218,13 @@ export const handleBioPopup = () => {
             document.querySelector('.bio-bio').textContent = member.bio;
 
             bioContainer.classList.add('is-active');
-            document.body.style.overflow = 'hidden';
+            // Allow background scrolling - remove body overflow lock
         });
     });
 
     const closeBio = () => {
         bioContainer.classList.remove('is-active');
-        document.body.style.overflow = '';
+        // No need to reset body overflow since we're not locking it
     }
 
     // Close button events
