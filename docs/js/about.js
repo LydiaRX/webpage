@@ -89,11 +89,10 @@ export const renderAboutPage = () => {
             </div>
         </section>
         <section class="section_team">
-            <div class="bio-container" style="transform: translateY(100%);">
+            <div class="bio-container">
                 <div class="padding-global bio-padding">
                     <div class="container-large">
                         <div  class="bio-wrapper">
-                            <button class="bottom-tab-line"></button>
                             <div class="w-layout-grid bio_component">
                                 <div class="bio_team-item">
                                     <div class="bio_image-wrapper">
@@ -133,14 +132,14 @@ export const renderAboutPage = () => {
 
 const teamMembers =[
     {
-        imageSrc: "https://upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg",
+        imageSrc: "assets/images/najib-rehman.png",
         name: "Najib Rehman",
         title: "CEO",
         position: 1,
         bio: "Najib is a data and analytics technology expert that has worked in life science for almost 20 years. From working within big pharma on their systems, processes and enabling capabilities through to being a founding member of ATMPS Ltd, a startup that developed the world\'s first patented blockchain solution in life sciences for tracking personalised medicine. He has spent time working with commercial and clinical functions on the challenges that they need to overcome to make data meaningful and thus drive value for the business, as well as building the foundation needed to take advantage of newer capabilities such as AI, ML etc. Furthermore, he has consulted and provided training support to pharma, biotech, university hospitals and academic science networks on key areas of data requirements, including AZ, BMS, Pfizer, Autolus, iDMT (Cambridge) and others in this and related life science areas. One final area of interest has been to work with teams in the workplace to get the best out of them, this interest has also led to the founding of a successful German based technology and consultancy start up operating across many sectors called Kokoro.",
     },
     {
-        imageSrc: "https://upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg",
+        imageSrc: "assets/images/sinica-alboaie.png",
         name: "Sînică Alboaie",
         title:"Chief Technology Lead",
         bio: "Sînică has a background in software development and research. He holds a PHD in Privacy Preserving Technologies and Blockchain, being the initiator and leader of the Open Source OpenDSU project, which has been developed and utilized in European research projects and enterprise blockchain solutions within the pharmaceutical industry. Sînică is also an experienced entrepreneur, having founded Axiologic Research in 2003, and has coordinated dozens of projects in roles such as CEO and Technical Product Manager for Axiologic\'s clients and collaborators. ",
@@ -158,13 +157,13 @@ const teamMembers =[
         bio: "Alexander brings over six years of professional experience across diverse sectors, including business development, logistics, operations, and software. With a background that includes service in the Swiss armed forces and roles in fintech, commodity trading, and software development, his track record reflects adaptability and success in varied environments.",
     },
     {
-        imageSrc: "https://upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg",
+        imageSrc: "assets/images/andrew-roddam.png",
         name: "Dr Andrew Roddam",
         title:"Advisor",
         bio: "Dr Andrew Roddam is a life sciences executive and internationally recognized epidemiologist with over 25 years’ experience spanning academia, pharmaceuticals, biotechnology, and public health. He is Chief Business Development Officer at EveryONE Medicines, leading the adoption of precision medicine capabilities from genetic discovery to patient monitoring. Previously, he was CEO of Our Future Health, the UK’s largest health research programme in partnership with the NHS, creating one of the world’s largest prospective cohorts and genetic resources. An Oxford-trained statistician, Andrew has published over 100 scientific papers and is a regular keynote speaker. He serves as Chair of SNOMED International, where he has been a board director since 2020, and advises multiple organizations on data-driven healthcare innovation.",
     },
     {
-        imageSrc: "https://upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg",
+        imageSrc: "assets/images/shahid-hanif.png",
         name: "Shahid Hanif",
         title:"Advisor",
         bio: "Dr Shahid Hanif is a life sciences executive with over 20 years’ of experience, specialising in driving strategic and collaborative approaches to data, evidence generation and patient outcomes. He is the Founder of Avenzoar Consulting, providing strategic support to life science organisations, and Co-Founder of a voluntary Science Policy Think Tank initiative. Previously, he led the establishment and development of the GetReal Institute, a multistakeholder initiative to advance the use of RWE for decision-making, and was the Head of Health Data & Outcomes at the ABPI. Recognised for enabling the development, approval, and access to innovative health technologies, combining deep industry knowledge with a forward-thinking mindset. Known for fostering partnerships across diverse stakeholders and aligning organisational goals with emerging trends in healthcare to deliver impactful, patient-focused solutions.",
@@ -183,7 +182,6 @@ export const renderTeamMembers = () => {
                 <div class="text-color-blue">${member.title}</div>
                 <div class="padding-bottom padding-xxsmall"></div>
                 <h3 class="heading-style-h4">${member.name}</h3>
-                <div class="padding-bottom padding-small"></div>
             </div>
         `;
         teamWrapper.insertAdjacentHTML('beforeend', teamMemberHTML);
@@ -193,9 +191,18 @@ export const renderTeamMembers = () => {
 export const handleBioPopup = () => {
     const teamItems = document.querySelectorAll('.team_item');
     const bioContainer = document.querySelector('.bio-container');
-    const closeButton = document.querySelector('.bottom-tab-line');
+    const closeButton = document.querySelector('.bio-close');
 
-    if (!bioContainer || !closeButton || teamItems.length === 0) return;
+    if (!bioContainer || teamItems.length === 0) return;
+
+    // Create close button if it doesn't exist
+    if (!closeButton) {
+        const closeBtn = document.createElement('button');
+        closeBtn.className = 'bio-close';
+        closeBtn.innerHTML = '×';
+        closeBtn.setAttribute('aria-label', 'Close');
+        bioContainer.querySelector('.bio-wrapper').appendChild(closeBtn);
+    }
 
     teamItems.forEach(item => {
         item.addEventListener('click', () => {
@@ -208,22 +215,32 @@ export const handleBioPopup = () => {
             document.querySelector('.bio-name').textContent = member.name;
             document.querySelector('.bio-bio').textContent = member.bio;
 
-            bioContainer.style.transform = 'translateY(0%)';
+            bioContainer.classList.add('is-active');
+            document.body.style.overflow = 'hidden';
         });
     });
 
     const closeBio = () => {
-        bioContainer.style.transform = 'translateY(100%)';
+        bioContainer.classList.remove('is-active');
+        document.body.style.overflow = '';
     }
 
-    closeButton.addEventListener('click', closeBio);
-    document.addEventListener('mousedown', (event) => {
-        if (!bioContainer.contains(event.target) && !event.target.closest('.team_item')) {
+    // Close button events
+    const closeBtn = bioContainer.querySelector('.bio-close');
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeBio);
+    }
+
+    // Click outside to close
+    bioContainer.addEventListener('click', (event) => {
+        if (event.target === bioContainer) {
             closeBio();
         }
     });
-    window.addEventListener('scroll', () => {
-        if (bioContainer.style.transform === 'translateY(0%)') {
+
+    // Escape key to close
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && bioContainer.classList.contains('is-active')) {
             closeBio();
         }
     });
