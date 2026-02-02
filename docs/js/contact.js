@@ -33,8 +33,11 @@ export const renderContactPage = () => {
                                         <input class="contact-input" name="phone" type="tel" placeholder="Phone" required />
                                         <input class="contact-input" name="email" type="email" placeholder="Email" required />
                                         <textarea class="contact-text-area" name="message" placeholder="Message" required ></textarea>
-                                        <div id="recaptcha-container" class="captcha"></div>
+                                        <div class="submit-container">
+                                         <div id="recaptcha-container" class="captcha"></div>
                                         <button type="submit" class="button">Submit</button>
+                                        </div>
+                                       
                                     </form>
                                 </div>
                             </div>

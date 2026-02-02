@@ -29,11 +29,69 @@
     transform: scale(1.05);
 }
 
-.team_person-wrapper {
-    grid-column-gap: 2rem;
-    grid-row-gap: 2rem;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+.team-carousel {
+    position: relative;
+    min-width: 0;
 }
+
+.team_person-wrapper {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 1rem 0 2rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.team_person-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.team_person-wrapper .team_item {
+    flex: 0 0 clamp(220px, 28vw, 260px);
+    scroll-snap-align: start;
+}
+
+.carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--primary-blue);
+    color: var(--white);
+    border: none;
+    border-radius: 999px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 2;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-nav:hover {
+    transform: translateY(-50%) scale(1.05);
+}
+
+.carousel-nav.prev {
+    left: -25px;
+}
+
+.carousel-nav.next {
+    right: -25px;
+}
+
+.carousel-nav.is-disabled,
+.carousel-nav:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
 
 .bio-container {
     position: fixed;
@@ -193,7 +251,16 @@
 
 @media screen and (max-width: 991px) {
     .team_person-wrapper {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem;
+    }
+
+    .team_person-wrapper .team_item {
+        flex-basis: clamp(200px, 40vw, 240px);
+    }
+
+    .carousel-nav {
+        width: 36px;
+        height: 36px;
     }
 
     .team_component {
@@ -220,7 +287,17 @@
 
 @media screen and (max-width: 767px) {
     .team_person-wrapper {
-        grid-template-columns: 1fr;
+        padding-bottom: 1.5rem;
+    }
+
+    .team_person-wrapper .team_item {
+        flex-basis: clamp(200px, 75vw, 260px);
+    }
+
+    .carousel-nav {
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
     }
 
     .team_component {
@@ -249,6 +326,23 @@
         height: 28px;
         font-size: 16px;
     }
+}
+
+/* Variant A – align About page layout with design B */
+html[data-style-variant="a"] .section_about-us,
+html[data-style-variant="a"] .section_team {
+    padding: 0;
+    text-align: left;
+}
+
+html[data-style-variant="a"] .about_component .max-width-large,
+html[data-style-variant="a"] .team_content-left {
+    max-width: 48rem;
+}
+
+html[data-style-variant="a"] .about_component p,
+html[data-style-variant="a"] .team_content-left p {
+    text-align: left;
 }
 
 /* Variant C – medical grade refinements */

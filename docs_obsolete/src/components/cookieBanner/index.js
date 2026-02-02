@@ -57,8 +57,8 @@ const ConsentBanner = () => {
   return (
     <div className="consent-banner">
       <p>We use cookies and similar technologies to collect data for analytics purposes to improve your experience. By clicking "Accept", you consent to the use of analytics tracking. For more details, read our <Link to="/legal/privacy-policy" target="_blank">Privacy Policy</Link>.</p>
-      <button onClick={() => handleConsentChange(true)}>Accept</button>
       <button onClick={() => handleConsentChange(false)}>Decline</button>
+      <button onClick={() => handleConsentChange(true)}>Accept</button>
     </div>
   );
 };

@@ -144,12 +144,11 @@
   }
 
   .section-about {
-    height: 100vh;
+
     display: flex;
     align-items: center;
   }
   .section-transport {
-    height: 100vh;
     display: block;
   }
   .subtract-height{
@@ -277,9 +276,8 @@
     grid-template-columns: auto auto auto auto;
     grid-auto-columns: 1fr;
     justify-content: space-between;
-    padding-top: 6rem;
-    padding-bottom: 4rem;
     display: grid;
+    padding: 0 0 10px;
   }
 
   .footer_heading {
@@ -292,12 +290,11 @@
   }
 
   .footer_links-grid {
-    grid-column-gap: 0rem;
-    grid-row-gap: 1rem;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr;
     grid-auto-columns: 1fr;
     display: grid;
+    gap: 10px;
   }
 
   .footer_link {

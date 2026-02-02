@@ -10,7 +10,7 @@ import { initDropdowns } from './ui.js';
 import { renderTransitionScreen, initTransition } from './transition.js';
 import { renderEpiPage, renderAiStudioPage, renderDemoPage } from './products.js';
 import { renderTrackAndTracePage, initTrackAndTracePage } from './track-and-trace.js';
-import { renderAboutPage, renderTeamMembers, handleBioPopup } from './about.js';
+import { renderAboutPage, renderTeamMembers, handleBioPopup, initTeamCarousel } from './about.js';
 import { renderContactPage, handleContactForm } from './contact.js';
 import { renderCsvPage, renderItInfrastructurePage, renderDataAnalyticsPage } from './services.js';
 import { initScrollIndicator, renderScrollIndicator } from './scroll-indicator.js';
@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     root.insertAdjacentHTML('beforeend', renderAboutPage());
     renderTeamMembers();
     handleBioPopup();
+    initTeamCarousel();
   } else if (path.includes('contact.html')) {
     root.insertAdjacentHTML('beforeend', renderContactPage());
     handleContactForm();

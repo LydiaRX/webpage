@@ -279,6 +279,7 @@ export const renderNewsPage = () => `
         </div>
       </div>
     </section>
+     <div class="padding-bottom"></div>
   </main>
 `;
 

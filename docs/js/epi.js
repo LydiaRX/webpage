@@ -10,7 +10,6 @@ export const renderEpiPage = () => {
                         <h1>
                             Electronic Product Information (ePI)
                         </h1>
-                        <div class="padding-bottom"></div>
                     </div>
                     <div class="max-width-medium">
                         <p class="Paragraph">Effortless accessibility, infinite languages, zero recall worries: Revolutionize information dissemination with ePI.</p>
@@ -28,7 +27,6 @@ export const renderEpiPage = () => {
                         <div class="about_component">
                             <div class="max-width-large">   
                                 <h2>Introduction</h2>
-                                <div class="padding-bottom"></div>
                                 <p>
                                     Introducing digital product information through mobile apps or digital platforms may seem commonplace, yet its adoption remains largely unexplored by many. Fortunately, for those who frequently seek information from paper or digital leaflets—patients, caregivers, and healthcare providers—the necessity of clear, accessible information is paramount.
                                 </p>
@@ -38,9 +36,10 @@ export const renderEpiPage = () => {
                                 <img src="${assetHref('images/LydiaRx_ePI.jpeg')}" class="epi_image" alt="Person checking the ePI of a product"/>
                             </div>
                             <div class="margin-vertical margin-xxlarge"></div>
+                                           <div class="padding-bottom"></div>
                             <div class="max-width-large">
                                 <h2>LydiaRx's ePI Solution</h2>
-                                <div class="padding-bottom"></div>
+                 
                                 <p>
                                     Traditional paper leaflets present challenges—difficult to decipher, cumbersome to navigate, and inconvenient to retain. While they convey regulated data, they often fall short of delivering a user-centric experience.
                                 </p>
@@ -50,7 +49,7 @@ export const renderEpiPage = () => {
                                 <p>
                                     Developed collaboratively by pharmaceutical firms, patient groups, and technology and regulatory experts, ePI by LydiaRx addresses critical needs.
                                 </p>
-                                <div class="padding-bottom"></div>
+                          
                                 <h4>Key Features</h4>
                                 <ul  style="margin: 2rem">
                                     <li>

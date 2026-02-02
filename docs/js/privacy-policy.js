@@ -23,7 +23,7 @@ export const renderPrivacyPolicyPage = () => {
         </section>
         <section class="section_about-us">
             <div class="page-padding">
-                <div class.container-large">
+                <div class="container-large">
                     <div class="padding-section-huge">
                         <div class="about_component">
                             <div class="max-width-large">

@@ -140,12 +140,12 @@ blockquote {
 
   .news-carousel__viewport::before {
     left: 0;
-    background: linear-gradient(90deg, var(--surface-bg-c, rgba(255, 255, 255, 0.95)) 0%, rgba(255, 255, 255, 0) 100%);
+    background: transparent;
   }
 
   .news-carousel__viewport::after {
     right: 0;
-    background: linear-gradient(270deg, var(--surface-bg-c, rgba(255, 255, 255, 0.95)) 0%, rgba(255, 255, 255, 0) 100%);
+    background: transparent;
   }
 
   .news-carousel__slider {
@@ -167,6 +167,7 @@ blockquote {
     background: rgba(15, 23, 42, 0.12);
     opacity: 0.6;
     transition: transform 0.2s ease, opacity 0.2s ease, background 0.2s ease;
+    margin: 1px;
   }
 
   .news-carousel__bullet--active {
@@ -188,10 +189,8 @@ blockquote {
   border-radius: 1.25rem;
   background: var(--surface-bg-c, rgba(255, 255, 255, 0.95));
   border: 1px solid var(--border-light, rgba(15, 23, 42, 0.08));
-  box-shadow: var(--shadow-soft, 0 24px 48px -32px rgba(15, 23, 42, 0.32));
   text-decoration: none;
   color: inherit;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .news-carousel__slide .news-card {
@@ -200,7 +199,6 @@ blockquote {
 
 .news-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 32px 56px -24px rgba(15, 23, 42, 0.36);
 }
 
 .news-card--carousel {

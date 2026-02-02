@@ -33,3 +33,11 @@ section h2 {
 .max-width-large.header-title{
   max-width: 48rem;
 }
+.submit-container{
+  display: flex;
+  gap: 1rem;
+  justify-content: end;
+}
+/*#recaptcha-container .grecaptcha-badge{
+  margin-left: auto;
+}*/

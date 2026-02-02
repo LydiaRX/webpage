@@ -293,7 +293,6 @@
       height: 250px;
     }
     .section-about {
-      min-height: 100vh;
       height: auto;
       display: block;
     }

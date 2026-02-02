@@ -115,14 +115,18 @@ export const renderAboutPage = () => {
             </div>
             <div class="padding-global">
                 <div class="container-large">
-                    <div class="padding-section-xhuge" >
-                        <div class="w-layout-grid team_component">
+                    <div class="padding-section-medium" >
+                        <div class="w-layout-flex team_component">
+                                  <div class="padding-bottom padding-small"></div>
                             <div class="team_content-left">
                                 <h2>Our Team</h2>
-                                <div class="padding-bottom padding-small"></div>
                                 <p>Our team brings together pharmaceutical industry veterans and AI specialists with experience across global pharmaceutical companies, regulatory environments, and enterprise technology development.</p>
                             </div>
-                            <div class="w-layout-grid team_person-wrapper"></div>
+                            <div class="team-carousel">
+                                <div class="w-layout-grid team_person-wrapper"></div>
+                                <button class="carousel-nav prev" type="button" aria-label="Previous team members">‹</button>
+                                <button class="carousel-nav next" type="button" aria-label="Next team members">›</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -247,3 +251,51 @@ export const handleBioPopup = () => {
         }
     });
 }
+
+export const initTeamCarousel = () => {
+    const carousel = document.querySelector('.team-carousel');
+    const wrapper = carousel?.querySelector('.team_person-wrapper');
+    const prevBtn = carousel?.querySelector('.carousel-nav.prev');
+    const nextBtn = carousel?.querySelector('.carousel-nav.next');
+
+    if (!carousel || !wrapper || !prevBtn || !nextBtn) {
+        return;
+    }
+
+    const getScrollAmount = () => {
+        const card = wrapper.querySelector('.team_item');
+        if (!card) {
+            return wrapper.clientWidth;
+        }
+        const styles = getComputedStyle(wrapper);
+        const gapValue = styles.columnGap || styles.gap || '0';
+        const gap = Number.parseFloat(gapValue) || 0;
+        return card.getBoundingClientRect().width + gap;
+    };
+
+    const updateButtons = () => {
+        const maxScrollLeft = wrapper.scrollWidth - wrapper.clientWidth - 4;
+        const atStart = wrapper.scrollLeft <= 2;
+        const atEnd = wrapper.scrollLeft >= maxScrollLeft;
+
+        prevBtn.disabled = atStart;
+        nextBtn.disabled = atEnd;
+        prevBtn.classList.toggle('is-disabled', atStart);
+        nextBtn.classList.toggle('is-disabled', atEnd);
+    };
+
+    const scrollByDirection = (direction) => {
+        wrapper.scrollBy({
+            left: getScrollAmount() * direction,
+            behavior: 'smooth',
+        });
+        setTimeout(updateButtons, 300);
+    };
+
+    prevBtn.addEventListener('click', () => scrollByDirection(-1));
+    nextBtn.addEventListener('click', () => scrollByDirection(1));
+    wrapper.addEventListener('scroll', updateButtons);
+    window.addEventListener('resize', updateButtons);
+
+    setTimeout(updateButtons, 120);
+};

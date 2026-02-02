@@ -2,7 +2,7 @@ import {assetHref} from './utils.js';
 
 export const renderAiStudioPage = () => {
     return `
-    <main class="main-wrapper">
+    <main class="main-wrapper ai-studio-page">
         <section class="section_page_header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
@@ -10,7 +10,7 @@ export const renderAiStudioPage = () => {
                         <h1>
                             LydiaRx AI R&D Studio
                         </h1>
-                        <div class="padding-bottom"></div>
+                        
                     </div>
                     <div class="max-width-medium">
                         <p class="Paragraph">AI-native R&D infrastructure for regulated pharmaceutical environments.</p>
@@ -28,7 +28,7 @@ export const renderAiStudioPage = () => {
                         <div class="about_component">
                             <div class="max-width-large">
                                 <h2>Overview</h2>
-                                <div class="padding-bottom"></div>
+                                
                                 <p>
                                     AI R&D Studio is LydiaRx's integrated platform for pharmaceutical research and development, combining three specialized applications: Discovery Studio for research acceleration, GxP Copilot Suite for compliance automation, and R&D Ops Platform for operational orchestration. Built specifically for regulated environments, the platform addresses the pharmaceutical industry's core challenge of maintaining scientific rigor and regulatory compliance while compressing development timelines.
                                 </p>
@@ -41,20 +41,20 @@ export const renderAiStudioPage = () => {
                                     </div>
                                 </div> -->
                             </div>
-
+<div class="padding-bottom"></div>
                             <div class="max-width-large">
                                 <h2>The R&D Challenge</h2>
-                                <div class="padding-bottom"></div>
+                                
                                 <p>
                                     Pharmaceutical R&D operates under unique constraints. Scientists dedicate substantial time to literature review, patent analysis, and hypothesis validation. Regulatory teams manually process extensive documentation for each submission, introducing delays and compliance risk. Disconnected systems across research, quality, and regulatory functions create data silos that impede collaboration. The cost of these inefficiencies is measured in extended development timelines and billions of dollars per approved therapeutic.
                                 </p>
-                                <div class="padding-bottom"></div>
+                                
                             </div>
 
                             <div class="max-width-large">
                                 <div class="padding-bottom small"></div>
                                 <h2>Platform Components</h2>
-                                <div class="padding-bottom"></div>
+                                
 
                                 <h3>Discovery Studio</h3>
                                 <div class="padding-bottom small"></div>
@@ -77,13 +77,13 @@ export const renderAiStudioPage = () => {
                                 <p>
                                     R&D Ops Platform creates an intelligent integration layer connecting laboratory information management systems, electronic lab notebooks, quality management systems, and regulatory information management platforms. The platform ensures data consistency, automates cross-system workflows, and surfaces operational insights. Leadership gains visibility into research timelines, resource allocation, and compliance status across the R&D portfolio.
                                 </p>
-                                <div class="padding-bottom"></div>
+                                
                             </div>
 
                             <div class="max-width-large">
                                 <div class="padding-bottom small"></div>
                                 <h2>Implementation and Compliance</h2>
-                                <div class="padding-bottom"></div>
+                                
                                 <p>
                                     AI R&D Studio is designed to meet GxP compliance requirements and integrates with existing pharmaceutical infrastructure through standard APIs. The platform supports both cloud and on-premise deployment, with security features including role-based access control, data encryption, and validated development processes. LydiaRx provides implementation support covering system integration, validation, and user training, with teams experienced in pharmaceutical quality systems and regulatory requirements.
                                 </p>

@@ -95,6 +95,13 @@ html[data-style-variant="default"] .news-card-excerpt {
     line-height: 1.4;
 }
 
+html[data-style-variant="default"] .footer_component {
+    background-color: rgba(245, 247, 250, 0.95);
+    border-top: 1px solid var(--border-light-c);
+    padding: 2.75rem 0 2.25rem;
+    margin-top: 3rem;
+}
+
 /* Accept Cookies Button Styling for Theme Default */
 html[data-style-variant="default"] #accept-cookies {
     background-color: var(--primary-blue);

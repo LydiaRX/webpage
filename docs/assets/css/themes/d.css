@@ -445,29 +445,29 @@ html[data-style-variant="d"] .news-card-cta:hover {
 }
 
 html[data-style-variant="d"] .footer_component {
-  background: var(--d-gradient-footer);
-  border-radius: 0;
-  border: 1px solid rgba(0, 36, 32, 0.55);
-  color: #f4f7f6;
-  box-shadow: 0 -20px 60px -35px rgba(4, 24, 22, 0.65);
+  background: var(--d-surface-muted);
+  border-radius: 18px;
+  border: 1px solid var(--d-border-soft);
+  color: var(--d-text-secondary);
+  box-shadow: var(--d-shadow-soft);
 }
 
 html[data-style-variant="d"] .footer_heading {
-  color: #ffffff;
+  color: var(--d-text-primary);
 }
 
 html[data-style-variant="d"] .footer_link {
-  color: rgba(207, 217, 214, 0.8);
+  color: var(--d-text-muted);
   transition: color 0.2s ease;
 }
 
 html[data-style-variant="d"] .footer_link:hover {
-  color: rgba(255, 255, 255, 0.95);
+  color: var(--d-primary);
 }
 
 html[data-style-variant="d"] .footer_bottom-wrapper {
-  border-top: 1px solid rgba(116, 142, 138, 0.25);
-  color: rgba(220, 229, 227, 0.78);
+  border-top: 1px solid var(--d-divider);
+  color: var(--d-text-soft);
 }
 
 html[data-style-variant="d"] .consent-banner {

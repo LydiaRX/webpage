@@ -462,9 +462,17 @@ a.w-button::after {
 }
 
 .team_person-wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    display: flex;
     gap: clamp(1.5rem, 2vw, 2rem);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 1rem 0 2rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.team_person-wrapper::-webkit-scrollbar {
+    display: none;
 }
 
 .team_item {
@@ -613,12 +621,13 @@ a.w-button::after {
 }
 
 .footer_component {
-    background: var(--gradient-dark-c);
-    color: var(--text-on-dark-c);
+    background: var(--surface-bg-alt-c);
+    color: var(--text-secondary-c);
     border-radius: calc(var(--card-radius-c) - 6px);
-    box-shadow: var(--shadow-md-c);
-    margin-top: clamp(2rem, 3vw, 3.5rem);
-    padding: clamp(2.5rem, 4vw, 3.5rem);
+    border: 1px solid var(--border-light-c);
+    box-shadow: var(--shadow-sm-c);
+    margin-top: clamp(1.75rem, 2.5vw, 3rem);
+    padding: clamp(2rem, 3.2vw, 2.75rem);
 }
 
 .footer_component::before,
@@ -627,7 +636,7 @@ a.w-button::after {
 }
 
 .footer_heading {
-    color: var(--text-on-dark-c);
+    color: var(--text-primary-c);
     font-weight: 600;
     margin-bottom: 1.25rem;
     font-size: 1.1rem;
@@ -635,7 +644,7 @@ a.w-button::after {
 }
 
 .footer_link {
-    color: var(--text-on-dark-secondary-c);
+    color: var(--text-secondary-c);
     transition: color 0.2s ease, transform 0.2s ease;
     line-height: 1.6;
     position: relative;
@@ -648,14 +657,14 @@ a.w-button::after {
     bottom: -4px;
     width: 100%;
     height: 2px;
-    background: rgba(148, 197, 255, 0.45);
+    background: rgba(148, 163, 184, 0.5);
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.25s ease;
 }
 
 .footer_link:hover {
-    color: var(--secondary-blue);
+    color: var(--primary-blue);
     transform: translateY(-1px);
 }
 
@@ -664,7 +673,7 @@ a.w-button::after {
 }
 
 .footer_bottom-wrapper {
-    border-top: 1px solid rgba(148, 197, 255, 0.35);
+    border-top: 1px solid var(--soft-divider-c);
     padding-top: 2rem;
     margin-top: 2.5rem;
     display: flex;
@@ -727,7 +736,7 @@ a.w-button::after {
     }
 
     .team_person-wrapper {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem;
     }
 
     .team_item {
@@ -758,7 +767,7 @@ a.w-button::after {
     }
 
     .team_person-wrapper {
-        grid-template-columns: 1fr;
+        padding-bottom: 1.5rem;
     }
 
     .team_item {
