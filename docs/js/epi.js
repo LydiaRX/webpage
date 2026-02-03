@@ -49,7 +49,7 @@ export const renderEpiPage = () => {
                                 </p>
                           
                                 <h3>Key Features</h3>
-                                <ul>
+                             <ul style="margin: 0 2rem">
                                     <li>
                                     Providing patients, healthcare professionals, and caregivers with instant access to up-to-date, trustworthy product information free of charge.
                                     </li>

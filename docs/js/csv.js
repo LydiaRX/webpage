@@ -40,7 +40,7 @@ export const renderCsvPage = () => {
                             <div class="margin-vertical margin-xxlarge"></div>
                             <div>
                                 <h3>Develop CSV frameworks</h3  >
-                                <ul>
+                             <ul style="margin: 0 2rem">
                                     <li>CSV program SOP</li>
                                     <li>
                                         CSV lifecycle documentation templates 
@@ -59,7 +59,7 @@ export const renderCsvPage = () => {
                             
                             <div>
                                 <h3>Validate computerized systems</h3  >
-                                <ul>
+                               <ul style="margin: 0 2rem">
                                     <li>
                                         <span style="font-weight: bold;">Laboratory systems</span> (e.g. LIMS, unicorn,
                                         empower, ELN, agilent, envision,
@@ -84,7 +84,7 @@ export const renderCsvPage = () => {
                             
                             <div>
                                 <h3>Implement data integrity program</h3>
-                                <ul>
+                            <ul style="margin: 0 2rem">
                                     <li>
                                         Develop data integrity procedures (e.g DI
                                         policy, data management, audit trail review,

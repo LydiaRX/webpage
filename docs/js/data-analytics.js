@@ -33,7 +33,7 @@ export const renderDataAnalyticsPage = () => {
                             <div class="margin-vertical margin-xxlarge"></div>
                             <div class="max-width-large">
                                 <h4>Key issues in pharmaceutical supply chain management include:</h4  >
-                                <ul style="margin: 2rem">
+                               <ul style="margin: 0 2rem">
                                     <li>
                                         <span style="font-weight: bold;">Regulatory Compliance: </span>Adhering to various regulatory standards across different regions demands meticulous tracking and documentation of every stage of the supply chain.
                                     </li>
@@ -51,7 +51,7 @@ export const renderDataAnalyticsPage = () => {
                             <div class="padding-bottom"></div>
                             <div class="max-width-large">
                                 <h4>Our Data & Analysis Services address these challenges head-on, offering a range of solutions tailored to the unique needs of the pharmaceutical industry:</h4  >
-                                <ul style="margin: 2rem">
+                               <ul style="margin: 0 2rem">
                                     <li>
                                         <span style="font-weight: bold;">Data Visualizations: </span>Transforming complex datasets into intuitive visual representations empowers stakeholders to gain actionable insights at a glance, facilitating informed decision-making.
                                     </li>

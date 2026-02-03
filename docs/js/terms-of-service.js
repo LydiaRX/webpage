@@ -36,7 +36,7 @@ export const renderTermsOfServicePage = () => {
                                 <p>You may use the Site for lawful purposes and in accordance with these Terms. You agree not to:</p>
                                 
 
-                                <ul>
+                                <ul style="margin: 0 2rem">
                                     <li>Violate any applicable laws or regulations;</li>
 
                                     <li>Use the Site in any way that may impair the performance, functionality, or availability of the Site;</li>

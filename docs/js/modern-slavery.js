@@ -63,7 +63,7 @@ export const renderModernSlaveryPage = () => {
 
                                 <p>We recognize the importance of understanding and addressing modern slavery risks within our supply chain. Our approach includes:</p>
                                 
-                                <ul>
+                                 <ul style="margin: 0 2rem">
                                     <li>Conducting risk assessments to identify high-risk suppliers and industries.</li>
 
                                     <li>Engaging with suppliers to promote awareness of modern slavery risks and expectations for compliance.</li>
@@ -77,7 +77,7 @@ export const renderModernSlaveryPage = () => {
 
                                 <h3><strong>Future Steps</strong></h3>
                                 
-                                <ul>
+                                <ul style="margin: 0 2rem">
                                     <li>Enhance our supplier engagement and due diligence processes to further mitigate risks.</li>
 
                                     <li>Expand our employee training programs to ensure all staff members understand their role in preventing modern slavery.</li>

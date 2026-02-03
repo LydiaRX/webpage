@@ -45,7 +45,7 @@ export const renderVentureStudioPage = () => `
                                 <h2 id="our-process">From Lab to Launch: Our Process</h2>
                                 <div class="padding-bottom"></div>
                                 <p>Our structured approach transforms nascent ideas into high-growth, independent companies.</p>
-                                <ul>
+                               <ul style="margin: 0 2rem">
                                     <li><strong>Phase 1: Ideation & Validation:</strong> We partner with innovators to rigorously analyze ideas. This includes market validation, intellectual property assessment, and defining a clear path to commercialization.</li>
                                     <li><strong>Phase 2: Co-Creation & Seed Funding:</strong> We structure and secure initial financing for joint R&D projects, often leveraging public-private partnerships. During this phase, we build the Minimum Viable Product (MVP) on our AI R&D Studio platform.</li>
                                     <li><strong>Phase 3: Incubation & Growth:</strong> Validated concepts are either incubated within LydiaRx’s operational structure or prepared for launch as a spin-off. We build the core team, refine the business model, and establish initial customer traction.</li>
@@ -57,7 +57,7 @@ export const renderVentureStudioPage = () => `
                                 <h2 id="de-risking-innovation">De-Risking Innovation, Maximizing Impact</h2>
                                 <div class="padding-bottom"></div>
                                 <p>Our greatest asset in de-risking new ventures is the <strong>LydiaRx AI R&D Studio</strong>. Every company we build is founded upon this GxP-native platform. This immediately solves three critical early-stage challenges:</p>
-                                <ul>
+                              <ul style="margin: 0 2rem">
                                     <li><strong>Technical Risk:</strong> Ventures don't start from scratch. They build on a validated, robust, and compliant technological foundation, reducing engineering timelines from years to months.</li>
                                     <li><strong>Regulatory Risk:</strong> Compliance is embedded in our platform's DNA. This "GxP-native" approach ensures ventures are audit-ready from inception, avoiding costly refactoring and delays down the line.</li>
                                     <li><strong>Financial Risk:</strong> By leveraging a shared platform and expertise, we build more with less capital. Our focus on securing non-dilutive funding (e.g., grants) in the early stages protects equity for founders and early investors.</li>
@@ -68,7 +68,7 @@ export const renderVentureStudioPage = () => `
                                 <h2 id="shared-resources">Shared Expertise and Infrastructure</h2>
                                 <div class="padding-bottom"></div>
                                 <p>When you partner with LydiaRx Venture Studio, you gain more than a financial backer. You gain a dedicated team and a powerful ecosystem. Our partners receive:</p>
-                                <ul>
+                             <ul style="margin: 0 2rem">
                                     <li><strong>Full access to the LydiaRx AI R&D Studio</strong> and its development capabilities.</li>
                                     <li><strong>Hands-on guidance</strong> from our experts in GxP compliance, quality assurance, and regulatory submissions (FDA, EMA).</li>
                                     <li><strong>Strategic support</strong> in business development, market positioning, and enterprise sales.</li>
@@ -80,7 +80,7 @@ export const renderVentureStudioPage = () => `
                                 <h2 id="join-us">A Call to Pioneers</h2>
                                 <div class="padding-bottom"></div>
                                 <p>The LydiaRx Venture Studio initiative is currently in a formative stage as we define our operational framework and consolidate budgets. However, we are ready to move quickly for the right opportunities. We are actively seeking partnerships with:</p>
-                                <ul>
+                              <ul style="margin: 0 2rem">
                                     <li><strong>Academic Researchers</strong> with breakthrough discoveries ready for commercialization.</li>
                                     <li><strong>Industry Experts</strong> who have identified a critical, unsolved problem.</li>
                                     <li><strong>Early-stage Entrepreneurs</strong> looking for a co-founding partner to accelerate their vision.</li>

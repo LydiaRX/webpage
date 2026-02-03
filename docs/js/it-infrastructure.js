@@ -10,7 +10,7 @@ export const renderItInfrastructurePage = () => {
                         <h1>
                             IT Infrastructure Services
                         </h1>
-                        <div class="padding-bottom"></div>
+                        
                         <p class="Paragraph">Digital compliance for pharma and fast growing biotech</p>
                     </div>
                     <div class="header_shapes">
@@ -25,29 +25,29 @@ export const renderItInfrastructurePage = () => {
                     <div class="padding-section-huge">
                         <div class="about_component">
                             
-                            <div class="max-width-large">   
-                                <h2>Expertise and Client Focus in CSV Solutions and Services</h2>
-                                <div class="padding-bottom"></div>
+                            <div>   
+                                <h3>Expertise and Client Focus in CSV Solutions and Services</h3>
+                                
                                 <p>
                                     We specialize in providing comprehensive solutions to ensure the robustness, reliability, and compliance of your IT infrastructure. From data centers to workstations, applications to security protocols, we offer end-to-end support to meet your unique needs.
                                 </p>
                             </div>
                             <div class="margin-vertical margin-xxlarge"></div>
-                            <div class="max-width-large">
-                                <h2>IT Infrastructure Qualification</h2>
-                                <div class="padding-bottom"></div>
+                            <div>
+                                <h3>IT Infrastructure Qualification</h3>
+                                
                                 <p>
                                     Our qualification process covers every aspect of your IT infrastructure, including data centers, servers, workstations, and applications. We meticulously assess and validate each component to ensure compliance with industry regulations and standards.
                                 </p>
                             </div>
-                            <div class="padding-bottom"></div>
-                            <div class="max-width-large">
-                                <h2>Implementation Procedures</h2>
-                                <div class="padding-bottom"></div>
+                            
+                            <div>
+                                <h3>Implementation Procedures</h3>
+                                
                                 <p>
                                     We implement rigorous procedures to streamline the deployment and maintenance of your IT infrastructure:
                                 </p>
-                                <ul style="margin: 2rem">
+                                <ul style="margin: 0 2rem">
                                     <li>
                                         <span style="font-weight: bold;">IT Infrastructure Qualification SOP:</span> Standard Operating Procedures tailored to your infrastructure\'s unique requirements.
                                     </li>
