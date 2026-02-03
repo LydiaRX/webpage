@@ -4,7 +4,7 @@ export const renderTrackAndTracePage = () => `
     <main class="main-wrapper">
         <section class="section_page_header">
             <div class="page-padding">
-                <div class="container-large" style="position: relative;">
+                <div class="container-large">
                     <div class="max-width-medium">
                         <h1>Track & Trace</h1>
                         <div class="padding-bottom"></div>

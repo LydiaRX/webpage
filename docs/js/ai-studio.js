@@ -5,7 +5,7 @@ export const renderAiStudioPage = () => {
     <main class="main-wrapper ai-studio-page">
         <section class="section_page_header">
             <div class="page-padding">
-                <div class="container-large" style="position: relative;">
+                <div class="container-large">
                     <div class="max-width-large">
                         <h1>
                             LydiaRx AI R&D Studio

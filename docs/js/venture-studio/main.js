@@ -4,7 +4,7 @@ export const renderVentureStudioPage = () => `
     <main class="main-wrapper">
         <section class="section_page_header">
             <div class="page-padding">
-                <div class="container-large" style="position: relative;">
+                <div class="container-large">
                     <div>
                         <h1>
                             Venture Studio

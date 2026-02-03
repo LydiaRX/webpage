@@ -31,9 +31,11 @@ section h2 {
     text-align: left;
 }
 
+/*
 .max-width-large.header-title {
     max-width: 48rem;
 }
+*/
 
 .submit-container {
     display: flex;

@@ -12,6 +12,14 @@
   }
 
 @media screen and (max-width: 767px) {
+  .max-width-medium {
+    max-width: 19rem;
+  }
+
+  .container-large {
+    position: static;
+  }
+
   body.is-homepage .page-padding.special.top {
     height: auto;
     padding-top: 10vh;

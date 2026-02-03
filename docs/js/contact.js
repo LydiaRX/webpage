@@ -5,10 +5,9 @@ export const renderContactPage = () => {
     <main class="main-wrapper">
         <section class="section_page_header">
             <div class="page-padding">
-                <div class="container-large" style="position: relative;">
+                <div class="container-large">
                     <div class="max-width-medium">
                         <h1>Contact Us</h1>
-                        <div class="padding-bottom"></div>
                         <p class="Paragraph">Get in touch to begin your journey with us</p>
                     </div>
                     <div class="header_shapes">
@@ -24,7 +23,7 @@ export const renderContactPage = () => {
                         <div class="about_component">
                             <div class="max-width-large">   
                                 <h2>Reach out to our team.</h2>
-                                <div class="padding-bottom"></div>
+                            
                                 <div id="contact-form-container">
                                     <form id="contact-form" class="contact-form">
                                         <input class="contact-input" name="name" type="text" placeholder="Name" required />

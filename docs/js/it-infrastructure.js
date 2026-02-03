@@ -5,7 +5,7 @@ export const renderItInfrastructurePage = () => {
     <main class="main-wrapper">
         <section class="section_page_header long-title">
             <div class="page-padding">
-                <div class="container-large" style="position: relative;">
+                <div class="container-large">
                     <div class="max-width-medium">
                         <h1>
                             IT Infrastructure Services

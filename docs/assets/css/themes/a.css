@@ -105,7 +105,7 @@ html[data-style-variant="a"] .max-width-large {
 }
 
 html[data-style-variant="a"] .max-width-large.header-title {
-    max-width: 51rem;
+/*    max-width: 51rem;*/
 }
 
 html[data-style-variant="a"] body {

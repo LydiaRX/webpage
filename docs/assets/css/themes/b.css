@@ -124,6 +124,10 @@ h6 {
     font-size: 1rem;
 }
 
+ul, ol {
+    font-size: 1rem;
+}
+
 .Paragraph:last-child,
 p:last-child {
     margin-bottom: 0;

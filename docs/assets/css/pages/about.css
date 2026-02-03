@@ -338,7 +338,7 @@ html[data-style-variant="a"] .section_team {
 
 html[data-style-variant="a"] .about_component .max-width-large,
 html[data-style-variant="a"] .team_content-left {
-    max-width: 48rem;
+/*    max-width: 48rem;*/
 }
 
 html[data-style-variant="a"] .about_component p,
