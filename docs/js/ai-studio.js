@@ -32,19 +32,17 @@ export const renderAiStudioPage = () => {
                                 <p>
                                     AI R&D Studio is LydiaRx's integrated platform for pharmaceutical research and development, combining three specialized applications: Discovery Studio for research acceleration, GxP Copilot Suite for compliance automation, and R&D Ops Platform for operational orchestration. Built specifically for regulated environments, the platform addresses the pharmaceutical industry's core challenge of maintaining scientific rigor and regulatory compliance while compressing development timelines.
                                 </p>
-                            </div>
-
-
-                            <div class="max-width-large">
-                                <h3>The R&D Challenge</h3>
+                                 <h3>The R&D Challenge</h3>
                                 
                                 <p>
                                     Pharmaceutical R&D operates under unique constraints. Scientists dedicate substantial time to literature review, patent analysis, and hypothesis validation. Regulatory teams manually process extensive documentation for each submission, introducing delays and compliance risk. Disconnected systems across research, quality, and regulatory functions create data silos that impede collaboration. The cost of these inefficiencies is measured in extended development timelines and billions of dollars per approved therapeutic.
                                 </p>
-                                
                             </div>
 
+
+            
                             <div class="max-width-large">
+                                         
                                 
                                 <h2>Platform Components</h2>
                                 
@@ -54,28 +52,19 @@ export const renderAiStudioPage = () => {
                                 <p>
                                     Discovery Studio accelerates early-stage research through AI-powered literature synthesis, patent landscape analysis, and hypothesis generation. Researchers interact with the system in natural language, receiving synthesized insights with full citation trails for regulatory documentation. The platform identifies knowledge gaps, suggests experimental approaches, and flags potential IP conflicts. All interactions maintain audit trails compatible with regulatory submission requirements.
                                 </p>
-
                                 
-
                                 <h3>GxP Copilot Suite</h3>
                                 
                                 <p>
                                     GxP Copilot Suite automates compliance-critical documentation across manufacturing, quality control, and regulatory submission workflows. The system generates batch records, deviation reports, validation protocols, and regulatory dossier sections while maintaining GxP compliance standards. Compliance officers review and approve AI-generated content, compressing documentation cycles while reducing errors. The system maintains complete version control and change tracking for audit purposes.
                                 </p>
-
                                 
-
                                 <h3>R&D Ops Platform</h3>
                                 
                                 <p>
                                     R&D Ops Platform creates an intelligent integration layer connecting laboratory information management systems, electronic lab notebooks, quality management systems, and regulatory information management platforms. The platform ensures data consistency, automates cross-system workflows, and surfaces operational insights. Leadership gains visibility into research timelines, resource allocation, and compliance status across the R&D portfolio.
                                 </p>
-                                
-                            </div>
-
-                            <div class="max-width-large">
-                                
-                                <h3>Implementation and Compliance</h3>
+                                              <h3>Implementation and Compliance</h3>
                                 
                                 <p>
                                     AI R&D Studio is designed to meet GxP compliance requirements and integrates with existing pharmaceutical infrastructure through standard APIs. The platform supports both cloud and on-premise deployment, with security features including role-based access control, data encryption, and validated development processes. LydiaRx provides implementation support covering system integration, validation, and user training, with teams experienced in pharmaceutical quality systems and regulatory requirements.

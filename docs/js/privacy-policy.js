@@ -46,12 +46,9 @@ export const renderPrivacyPolicyPage = () => {
                                 <h3>Data Sharing</h3>
 
                                 <p>We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this Privacy Policy or required by law. We may share your information with:</p>
-                                <div class="padding-bottom"></div>
-
-                                <ul style="margin: 0 2rem">
-                                    <li><strong>Service Providers:</strong> We may engage third-party service providers to assist with website operation, analytics, and other services. These providers have access to your personal information only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</li>
-                                </ul>
-
+                        
+                              <p><strong>Service Providers:</strong> We may engage third-party service providers to assist with website operation, analytics, and other services. These providers have access to your personal information only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</li>
+                              </p>
               
                                 <div class="padding-bottom"></div>
                                 <h3>Data Security</h3>

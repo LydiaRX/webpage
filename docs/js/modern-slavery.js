@@ -93,8 +93,8 @@ export const renderModernSlaveryPage = () => {
                                 <p>LydiaRx remains committed to preventing modern slavery and human trafficking in all aspects of our business. We will continue to uphold the principles of transparency, accountability, and respect for human rights as we work towards a world free from exploitation and forced labor.</p>
                                 
 
-                                <p><strong>Signed: Najib Rehman, CEO</strong></p>
-                                <p><strong>Date: 01.01.2025</strong></p>
+                                <p><strong>Signed: Najib Rehman, CEO</strong> </br><strong>Date: 01.01.2025</strong></p>
+                            
                             </div>
                            
                         </div>
