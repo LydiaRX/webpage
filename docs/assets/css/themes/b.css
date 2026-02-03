@@ -89,12 +89,14 @@ h2 {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: var(--spacing-md);
+    line-height: 1;
 }
 
 h3 {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: 5px;
+    padding-top: 10px;
 }
 
 h4 {
