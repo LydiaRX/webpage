@@ -120,6 +120,10 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .mobile-menu-arrow path {
+    fill: var(--primary-blue);
+  }
   .no-point{
     list-style: none;
   }

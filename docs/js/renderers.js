@@ -131,8 +131,8 @@ export const renderHeader = () => `
                 <div class="mobile-menu-item is-for-dropdown">
                     <span>Products & Services</span>
                     <div style="margin-left: 5px; display: flex; align-items: center;">
-                        <svg width="15" height="15" viewBox="0 0 20 20" aria-hidden="true">
-                            <path d="M0 7 L 20 7 L 10 16" fill="#fff"></path>
+                        <svg width="15" height="15" viewBox="0 0 20 20" aria-hidden="true" class="mobile-menu-arrow">
+                            <path d="M0 7 L 20 7 L 10 16"></path>
                         </svg>
                     </div>
                 </div>
@@ -161,8 +161,8 @@ export const renderHeader = () => `
                 <div class="mobile-menu-item is-for-dropdown">
                     <span>Venture Studio</span>
                     <div style="margin-left: 5px; display: flex; align-items: center;">
-                        <svg width="15" height="15" viewBox="0 0 20 20" aria-hidden="true">
-                            <path d="M0 7 L 20 7 L 10 16" fill="#fff"></path>
+                        <svg width="15" height="15" viewBox="0 0 20 20" aria-hidden="true" class="mobile-menu-arrow">
+                            <path d="M0 7 L 20 7 L 10 16"></path>
                         </svg>
                     </div>
                 </div>
