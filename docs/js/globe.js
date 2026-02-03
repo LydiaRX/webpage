@@ -192,6 +192,41 @@ export const initGlobe = () => {
     return Math.max(0, Math.min(1, ratio));
   };
 
+  let lastWidth = 0;
+  let lastHeight = 0;
+
+  const getViewportSize = () => {
+    if (window.visualViewport) {
+      return {
+        width: Math.round(window.visualViewport.width),
+        height: Math.round(window.visualViewport.height),
+      };
+    }
+    return {
+      width: window.innerWidth,
+      height: window.innerHeight,
+    };
+  };
+
+  const resizeRenderer = () => {
+    startRefHeight = startRef ? startRef.offsetHeight : 0;
+    const viewport = getViewportSize();
+    const finalWidth = viewport.width || window.innerWidth;
+    const finalHeight = viewport.height || window.innerHeight;
+    globeCanvas.style.width = `${finalWidth}px`;
+    globeCanvas.style.height = `${finalHeight}px`;
+    if (globeOverlay) {
+      globeOverlay.style.width = `${finalWidth}px`;
+      globeOverlay.style.height = `${finalHeight}px`;
+    }
+    camera.aspect = finalWidth / finalHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(finalWidth, finalHeight, false);
+    renderer.setPixelRatio(window.devicePixelRatio || 1);
+    lastWidth = finalWidth;
+    lastHeight = finalHeight;
+  };
+
   const animate = () => {
     const scrollRatio = getScrollRatio();
     const screenWidth = window.innerWidth;
@@ -225,24 +260,29 @@ export const initGlobe = () => {
     camera.position.z = cameraPosZ;
     camera.lookAt(cameraLookX, cameraPosY, 0);
 
+    const viewport = getViewportSize();
+    if (globeCanvas && (viewport.width !== lastWidth || viewport.height !== lastHeight)) {
+      resizeRenderer();
+    }
+
     globe.rotation.y += (1 / 60) * Math.PI * 2 / 60;
     renderer.render(scene, camera);
     requestAnimationFrame(animate);
   };
   animate();
 
-  const resizeRenderer = () => {
-    startRefHeight = startRef ? startRef.offsetHeight : 0;
-    const width = globeCanvas.clientWidth || window.innerWidth;
-    const height = globeCanvas.clientHeight || window.innerHeight;
-    camera.aspect = width / height;
-    camera.updateProjectionMatrix();
-    renderer.setSize(width, height, false);
-    renderer.setPixelRatio(window.devicePixelRatio || 1);
+  const scheduleResize = () => {
+    requestAnimationFrame(resizeRenderer);
   };
 
   resizeRenderer();
-  window.addEventListener('resize', resizeRenderer, false);
+  scheduleResize();
+  window.addEventListener('resize', scheduleResize, false);
+  window.addEventListener('orientationchange', scheduleResize, false);
+  window.addEventListener('load', scheduleResize, { once: true });
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', scheduleResize, false);
+  }
 
   return { camera, resize: resizeRenderer };
 };
