@@ -10,7 +10,7 @@ export const renderDataAnalyticsPage = () => {
                         <h1>
                             Data & Analytics
                         </h1>
-                        <div class="padding-bottom"></div>
+                        
                         <p class="Paragraph">Empowering pharma supply chains through data excellence</p>
                     </div>
                     <div class="header_shapes">
@@ -25,14 +25,14 @@ export const renderDataAnalyticsPage = () => {
                     <div class="padding-section-huge">
                         <div class="about_component">
                             
-                            <div class="max-width-large">
+                            <div>
                                 <p>
                                     In the dynamic landscape of the pharmaceutical industry, effective supply chain management is paramount. However, it\'s often fraught with challenges such as stringent regulatory requirements, complex distribution networks, and the need for stringent quality control measures. In such a high-stakes environment, the ability to harness data effectively becomes a strategic imperative. That\'s where our Data & Analysis Services come into play, offering tailored solutions to navigate these complexities and drive operational excellence.
                                 </p>
                             </div>
                             <div class="margin-vertical margin-xxlarge"></div>
-                            <div class="max-width-large">
-                                <h4>Key issues in pharmaceutical supply chain management include:</h4  >
+                            <div>
+                                <h3>Key issues in pharmaceutical supply chain management include:</h3  >
                                <ul style="margin: 0 2rem">
                                     <li>
                                         <span style="font-weight: bold;">Regulatory Compliance: </span>Adhering to various regulatory standards across different regions demands meticulous tracking and documentation of every stage of the supply chain.
@@ -48,9 +48,9 @@ export const renderDataAnalyticsPage = () => {
                                     </li>                                      
                                 </ul>
                             </div>
-                            <div class="padding-bottom"></div>
-                            <div class="max-width-large">
-                                <h4>Our Data & Analysis Services address these challenges head-on, offering a range of solutions tailored to the unique needs of the pharmaceutical industry:</h4  >
+                            
+                            <div>
+                                <h3>Our Data & Analysis Services address these challenges head-on, offering a range of solutions tailored to the unique needs of the pharmaceutical industry:</h3  >
                                <ul style="margin: 0 2rem">
                                     <li>
                                         <span style="font-weight: bold;">Data Visualizations: </span>Transforming complex datasets into intuitive visual representations empowers stakeholders to gain actionable insights at a glance, facilitating informed decision-making.
@@ -69,8 +69,8 @@ export const renderDataAnalyticsPage = () => {
                                     </li>              
                                 </ul>
                             </div>
-                            <div class="padding-bottom"></div>
-                            <div class="max-width-large">
+                            
+                            <div>
                                 <p>
                                     With our Data & Analysis Services, you can harness the power of data to drive innovation, enhance efficiency, and maintain a competitive edge in the fast-paced world of pharmaceutical supply chain management.
                                 </p>
