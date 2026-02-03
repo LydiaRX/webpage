@@ -1,4 +1,4 @@
-import { assetHref } from './utils.js';
+import {assetHref} from './utils.js';
 
 export const renderPrivacyPolicyPage = () => {
     return `
@@ -26,7 +26,7 @@ export const renderPrivacyPolicyPage = () => {
                 <div class="container-large">
                     <div class="padding-section-huge">
                         <div class="about_component">
-                            <div class="max-width-large">
+                            <div>
 
                                 <p>LydiaRx Systems Ltd. ("LydiaRx," "we," "us," or "our") operates the website lydiarx.com (the "Site"). This Privacy Policy outlines how we collect, use, store, and protect personal information obtained through the Site. By accessing or using the Site, you agree to the terms of this Privacy Policy.</p>
                                 <div class="padding-bottom"></div>
