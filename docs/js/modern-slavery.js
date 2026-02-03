@@ -10,7 +10,7 @@ export const renderModernSlaveryPage = () => {
                         <h1>
                             Modern Slavery Statement
                         </h1>
-                        <div class="padding-bottom"></div>
+                        
                     </div>
                     <div class="max-width-medium">
                         <p class="Paragraph">Last Updated: 01.01.2025</p>
@@ -28,24 +28,24 @@ export const renderModernSlaveryPage = () => {
                         <div class="about_component">
                             <div class="max-width-large">
                                 <h2>Modern Slavery Statement</h2>
-                                <div class="padding-bottom"></div>
+                                
 
-                                <p><strong>Introduction</strong></p>
-                                <div class="padding-bottom"></div>
+                                <h3><strong>Introduction</strong></h3>
+                                
 
                                 <p>This statement is made pursuant to Section 54 of the Modern Slavery Act 2015 and sets out the steps taken by LydiaRx Systems Ltd. ("LydiaRx" or "the Company") to prevent modern slavery and human trafficking in our business and supply chains during the financial year 2024.</p>
 
                                 <div class="margin-vertical margin-xxlarge"></div>
 
-                                <p><strong>About LydiaRx</strong></p>
-                                <div class="padding-bottom"></div>
+                                <h3><strong>About LydiaRx</strong></h3>
+                                
 
                                 <p>LydiaRx is committed to conducting its business ethically and with integrity, and we are dedicated to upholding human rights across all aspects of our operations. We provide Pharmaceutical Track and Trace, Electronic Product Information (ePI) products, Computer Validation Service, IT Infrastructure Design, Implementation & Qualification, Data & Analysis services to our customers and maintain a responsible and transparent approach to our supply chain management.</p>
 
                                 <div class="margin-vertical margin-xxlarge"></div>
 
-                                <p><strong>Our Policies</strong></p>
-                                <div class="padding-bottom"></div>
+                                <h3><strong>Our Policies</strong></h3>
+                                
                                 <ol>
                                     <li><strong>Supplier Code of Conduct:</strong> We have established a Supplier Code of Conduct that outlines our expectations regarding ethical conduct, labor practices, and human rights. We require all suppliers and contractors to adhere to these standards.</li>
 
@@ -58,11 +58,11 @@ export const renderModernSlaveryPage = () => {
 
                                 <div class="margin-vertical margin-xxlarge"></div>
 
-                                <p><strong>Supply Chain Management</strong></p>
-                                <div class="padding-bottom"></div>
+                                <h3><strong>Supply Chain Management</strong></h3>
+                                
 
                                 <p>We recognize the importance of understanding and addressing modern slavery risks within our supply chain. Our approach includes:</p>
-                                <div class="padding-bottom"></div>
+                                
                                 <ul>
                                     <li>Conducting risk assessments to identify high-risk suppliers and industries.</li>
 
@@ -75,8 +75,8 @@ export const renderModernSlaveryPage = () => {
 
                                 <div class="margin-vertical margin-xxlarge"></div>
 
-                                <p><strong>Future Steps</strong></p>
-                                <div class="padding-bottom"></div>
+                                <h3><strong>Future Steps</strong></h3>
+                                
                                 <ul>
                                     <li>Enhance our supplier engagement and due diligence processes to further mitigate risks.</li>
 
@@ -87,11 +87,11 @@ export const renderModernSlaveryPage = () => {
 
                                 <div class="margin-vertical margin-xxlarge"></div>
 
-                                <p><strong>Conclusion</strong></p>
-                                <div class="padding-bottom"></div>
+                                <h3><strong>Conclusion</strong></h3>
+                                
 
                                 <p>LydiaRx remains committed to preventing modern slavery and human trafficking in all aspects of our business. We will continue to uphold the principles of transparency, accountability, and respect for human rights as we work towards a world free from exploitation and forced labor.</p>
-                                <div class="padding-bottom"></div>
+                                
 
                                 <p><strong>Signed: Najib Rehman, CEO</strong></p>
                                 <p><strong>Date: 01.01.2025</strong></p>
