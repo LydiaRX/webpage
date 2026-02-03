@@ -641,7 +641,8 @@ a.w-button::after {
 .footer_heading {
     color: var(--text-primary-c);
     font-weight: 600;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
     font-size: 1.1rem;
     letter-spacing: 0.02em;
 }
