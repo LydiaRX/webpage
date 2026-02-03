@@ -141,12 +141,19 @@ html[data-style-variant="d"] .nav_link.is-for-dropdown.w-dropdown-toggle:hover {
   transform: translateY(-1px);
 }
 
+html[data-style-variant="d"] .nav_link.w-nav-link.w--current {
+  color: var(--d-text-primary);
+}
+
 html[data-style-variant="d"] .nav_link-line {
   height: 2px;
   background: linear-gradient(90deg, rgba(185, 109, 64, 0), rgba(185, 109, 64, 0.55), rgba(185, 109, 64, 0));
 }
 
-html[data-style-variant="d"] .nav_link.is-for-dropdown.is-blue > div {
+html[data-style-variant="d"] .nav_link.is-for-dropdown.is-active > div,
+html[data-style-variant="d"] .nav_link.is-for-dropdown:hover > div,
+html[data-style-variant="d"] .nav_link.is-for-dropdown.is-blue.is-active > div,
+html[data-style-variant="d"] .nav_link.is-for-dropdown.is-blue:hover > div {
   color: var(--d-accent-clay);
 }
 

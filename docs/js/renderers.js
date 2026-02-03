@@ -118,7 +118,7 @@ export const renderHeader = () => `
         <ul class="menu">
             <li class="menu-link no-point logo-mobile-menu"> 
                 <a href="${pageHref(routes.home)}" class="nav_brand-link w-nav-brand">
-                    <img src="${assetHref('images/LydiaRx_Logo_Dark.svg')}" loading="lazy" alt="LydiaRx" class="nav_brand-logo">
+                    <img src="${assetHref('images/LydiaRx_Logo_Light.svg')}" loading="lazy" alt="LydiaRx" class="nav_brand-logo">
                 </a>
             </li>
             <li class="menu-link no-point">

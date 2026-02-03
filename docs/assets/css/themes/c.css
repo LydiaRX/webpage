@@ -337,7 +337,10 @@ a.w-button::after {
     transform: scaleX(1);
 }
 
-.nav_link.is-for-dropdown.is-blue > div {
+.nav_link.is-for-dropdown.is-active > div,
+.nav_link.is-for-dropdown:hover > div,
+.nav_link.is-for-dropdown.is-blue.is-active > div,
+.nav_link.is-for-dropdown.is-blue:hover > div {
     color: var(--primary-blue) !important;
 }
 

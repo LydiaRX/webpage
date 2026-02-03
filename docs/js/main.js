@@ -6,7 +6,7 @@ import { renderHomepage } from './homepage.js';
 import { initGlobe } from './globe.js';
 import { initNewsSlider, renderNewsPage, initNewsPage } from './news.js';
 import { initCookieBanner } from './cookies.js';
-import { initDropdowns } from './ui.js';
+import { initActiveNav, initDropdowns } from './ui.js';
 import { renderTransitionScreen, initTransition } from './transition.js';
 import { renderEpiPage, renderAiStudioPage, renderDemoPage } from './products.js';
 import { renderTrackAndTracePage, initTrackAndTracePage } from './track-and-trace.js';
@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   root.insertAdjacentHTML('beforeend', renderHeader());
   root.insertAdjacentHTML('beforeend', renderTransitionScreen());
 
+  initActiveNav();
   initDropdowns();
   initTransition();
 
