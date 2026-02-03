@@ -29,9 +29,7 @@ export const renderDataAnalyticsPage = () => {
                                 <p>
                                     In the dynamic landscape of the pharmaceutical industry, effective supply chain management is paramount. However, it\'s often fraught with challenges such as stringent regulatory requirements, complex distribution networks, and the need for stringent quality control measures. In such a high-stakes environment, the ability to harness data effectively becomes a strategic imperative. That\'s where our Data & Analysis Services come into play, offering tailored solutions to navigate these complexities and drive operational excellence.
                                 </p>
-                            </div>
-                            <div class="margin-vertical margin-xxlarge"></div>
-                            <div>
+                          
                                 <h3>Key issues in pharmaceutical supply chain management include:</h3  >
                                <ul style="margin: 0 2rem">
                                     <li>
@@ -47,9 +45,7 @@ export const renderDataAnalyticsPage = () => {
                                         <span style="font-weight: bold;">Demand Forecasting: </span>Accurately forecasting demand for pharmaceutical products is challenging due to factors such as seasonality, market trends, and unforeseen events like pandemics or regulatory changes.
                                     </li>                                      
                                 </ul>
-                            </div>
-                            
-                            <div>
+                            <div class="padding-bottom"></div>
                                 <h3>Our Data & Analysis Services address these challenges head-on, offering a range of solutions tailored to the unique needs of the pharmaceutical industry:</h3  >
                                <ul style="margin: 0 2rem">
                                     <li>
