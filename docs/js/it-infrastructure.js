@@ -31,17 +31,12 @@ export const renderItInfrastructurePage = () => {
                                 <p>
                                     We specialize in providing comprehensive solutions to ensure the robustness, reliability, and compliance of your IT infrastructure. From data centers to workstations, applications to security protocols, we offer end-to-end support to meet your unique needs.
                                 </p>
-                            </div>
-                            <div class="margin-vertical margin-xxlarge"></div>
-                            <div>
-                                <h3>IT Infrastructure Qualification</h3>
+                                 <h3>IT Infrastructure Qualification</h3>
                                 
                                 <p>
                                     Our qualification process covers every aspect of your IT infrastructure, including data centers, servers, workstations, and applications. We meticulously assess and validate each component to ensure compliance with industry regulations and standards.
                                 </p>
-                            </div>
-                            
-                            <div>
+                          
                                 <h3>Implementation Procedures</h3>
                                 
                                 <p>
