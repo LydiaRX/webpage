@@ -8,7 +8,7 @@ export const renderCsvPage = () => {
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-medium">
                         <h1>Computer System Validation (CSV)</h1>
-                        <div class="padding-bottom"></div>
+                        
                         <p class="Paragraph">Digital compliance for pharma and fast growing biotech</p>
                     </div>
                     <div class="header_shapes">
@@ -23,9 +23,9 @@ export const renderCsvPage = () => {
                     <div class="padding-section-huge">
                         <div class="about_component">
                             
-                            <div class="max-width-large">   
-                                <h2>Expertise and Client Focus in CSV Solutions and Services</h2>
-                                <div class="padding-bottom"></div>
+                            <div>   
+                                <h3>Expertise and Client Focus in CSV Solutions and Services</h3>
+                                
                                 <p>
                                     Our expertise lies in quality oversight, information technology, and computer software validation. 
                                     Our trained experts excel in understanding the intricacies of operations within tight timelines, 
@@ -38,9 +38,9 @@ export const renderCsvPage = () => {
                                 </p>
                             </div>
                             <div class="margin-vertical margin-xxlarge"></div>
-                            <div class="max-width-large">
-                                <h4>Develop CSV frameworks</h4  >
-                                <ul style="margin: 2rem">
+                            <div>
+                                <h3>Develop CSV frameworks</h3  >
+                                <ul>
                                     <li>CSV program SOP</li>
                                     <li>
                                         CSV lifecycle documentation templates 
@@ -56,10 +56,10 @@ export const renderCsvPage = () => {
                                     </li>                                      
                                 </ul>
                             </div>
-                            <div class="padding-bottom"></div>
-                            <div class="max-width-large">
-                                <h4>Validate computerized systems</h4  >
-                                <ul style="margin: 2rem">
+                            
+                            <div>
+                                <h3>Validate computerized systems</h3  >
+                                <ul>
                                     <li>
                                         <span style="font-weight: bold;">Laboratory systems</span> (e.g. LIMS, unicorn,
                                         empower, ELN, agilent, envision,
@@ -81,10 +81,10 @@ export const renderCsvPage = () => {
                                     </li>                 
                                 </ul>
                             </div>
-                            <div class="padding-bottom"></div>
-                            <div class="max-width-large">
-                                <h4>Implement data integrity program</h4  >
-                                <ul style="margin: 2rem">
+                            
+                            <div>
+                                <h3>Implement data integrity program</h3>
+                                <ul>
                                     <li>
                                         Develop data integrity procedures (e.g DI
                                         policy, data management, audit trail review,
