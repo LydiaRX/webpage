@@ -377,6 +377,12 @@
     height: 50vh;
 }
 
+@media screen and (max-width: 767px) {
+    .epi_image {
+        border-radius: 0;
+    }
+}
+
 .header-shape-image {
     height: 15vw;
     max-height: 260px;
