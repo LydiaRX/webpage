@@ -12,6 +12,38 @@
   }
 
 @media screen and (max-width: 767px) {
+  body.is-homepage .page-padding.special.top {
+    height: auto;
+    padding-top: 10vh;
+  }
+
+  body.is-homepage .section-home-header {
+    padding-top: 1.25rem;
+    padding-bottom: 2rem;
+  }
+
+  body.is-homepage .home-header_component.container-background {
+    top: 0;
+    margin: 0;
+    padding: 1.25rem;
+  }
+
+  body.is-homepage .section-meet-os .padding-vertical.padding-huge {
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+  }
+
+  body.is-homepage .button-wrapper {
+    margin-top: 1.5rem;
+  }
+
+  body.is-homepage .ai-studio-icon {
+    width: 60px;
+    height: 60px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+  }
+
   .section_page_header,
   .footer_component {
     border-radius: 0 !important;
