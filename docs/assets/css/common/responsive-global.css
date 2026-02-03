@@ -262,7 +262,11 @@
     }
 
     .cta_image-wrapper {
-        margin-top: -8%;
+        margin-top: 1.5rem;
+        max-width: 100%;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 1.5rem;
     }
 
     .featured_component {
@@ -491,6 +495,7 @@
         aspect-ratio: 1 / 1;
         object-fit: cover;
         object-position: 70%;
+        display: block;
     }
 
     .page-padding.special.top {
