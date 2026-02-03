@@ -26,7 +26,7 @@ export const renderModernSlaveryPage = () => {
                 <div class="container-large">
                     <div class="padding-section-huge">
                         <div class="about_component">
-                            <div class="max-width-large">
+                            <div>
                                 <h2>Modern Slavery Statement</h2>
                                 
 
