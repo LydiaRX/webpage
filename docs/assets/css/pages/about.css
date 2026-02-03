@@ -269,7 +269,7 @@
         gap: 2rem;
     }
 
-    .bio_wrapper {
+    .bio-wrapper {
         width: 95%;
         max-width: 450px;
         padding: var(--spacing-lg);
@@ -305,11 +305,12 @@
         grid-template-columns: 1fr;
     }
 
-    .bio_wrapper {
-        width: 95%;
-        max-width: 400px;
+    .bio-wrapper {
+        width: calc(100% - 2rem);
+        max-width: 420px;
+        max-height: 90vh;
         padding: var(--spacing-md);
-        margin: var(--spacing-md);
+        margin: 1rem;
     }
 
     .bio_image-wrapper {
@@ -319,7 +320,11 @@
 
     .bio-bio {
         font-size: 0.9rem;
-        padding: var(--spacing-sm);
+        max-height: 45vh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: 0 !important;
+        padding:var(--spacing-xs) !important;
     }
 
     .bio-close {
