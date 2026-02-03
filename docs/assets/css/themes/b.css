@@ -192,7 +192,7 @@ html[data-style-variant="b"] .ai-studio-page .about_component .max-width-large {
 html[data-style-variant="b"] .ai-studio-page .about_component h2,
 html[data-style-variant="b"] .ai-studio-page .about_component h3,
 html[data-style-variant="b"] .ai-studio-page .about_component p {
-  text-align: left;
+  text-align: justify;
 }
 
 

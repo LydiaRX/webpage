@@ -35,7 +35,7 @@
 }
 
 @media (max-width: 991px) {
-    .track-view__video, .track-view__canvas { display: none; }
-    .track-view__fallback { display: block; }
+    .track-view__video, .track-view__canvas { display: block; }
+    .track-view__fallback { display: none; }
     .track-view, .manufacturing-figure { min-height: 260px; }
 }

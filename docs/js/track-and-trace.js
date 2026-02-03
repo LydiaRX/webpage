@@ -21,7 +21,7 @@ export const renderTrackAndTracePage = () => `
                 <div class="container-large">
                     <div class="padding-section-huge">
                         <div class="about_component">
-                            <div class="max-width-large">
+                            <div>
                                 <p>
                                 Introducing our advanced Track and Trace solution, a sophisticated pharmaceutical track and trace system poised to redefine industry standards. Rooted in blockchain technology, our platform adopts a decentralized framework for meticulously tracking drugs from manufacturing to dispensation, ensuring unparalleled transparency and security throughout the supply chain.
                                 <br/><br/>
@@ -37,7 +37,7 @@ export const renderTrackAndTracePage = () => `
         <section class="section-how-it-works">
             <div class="page-padding">
                 <div class="container-large">
-                    <div class="padding-vertical padding-huge">
+                    <div class="padding-vertical">
                         <div style="display:flex; align-items: center; justify-content: center;">
                             <h1>How it works</h1>
                         </div>
@@ -48,7 +48,7 @@ export const renderTrackAndTracePage = () => `
         <section class="section-about">
             <div class="page-padding">
                 <div class="container-large">
-                    <div class="padding-vertical padding-huge">
+                    <div class="padding-vertical">
                         <div class="layout-2-col">
                             <div class="about-image-wrapper track-view">
                                 <video class="track-view__video" src="${assetHref('video/manufacturing.mov')}" autoplay muted loop playsinline poster="${assetHref('images/LydiaRx_aggregation.jpg')}"></video>
@@ -76,7 +76,7 @@ export const renderTrackAndTracePage = () => `
         <section class="section-meet-os">
             <div class="page-padding">
                 <div class="container-large">
-                    <div class="padding-vertical padding-huge">
+                    <div class="padding-vertical">
                         <div class="layout-2-col is-for-meet-os">
                             <div class="meet-os-content">
                                 <div class="max-width-small">
@@ -106,7 +106,7 @@ export const renderTrackAndTracePage = () => `
         <section class="section-transport">
             <div class="page-padding">
                 <div class="container-large">
-                    <div class="padding-vertical padding-huge">
+                    <div class="padding-vertical">
                         <div class="layout-2-col">
                             <div class="about-image-wrapper track-view">
                                 <video class="track-view__video" src="${assetHref('video/transport.mov')}" autoplay muted loop playsinline poster="${assetHref('images/LydiaRx_transport_by_marcinjozwiak.jpg')}"></video>
@@ -132,7 +132,7 @@ export const renderTrackAndTracePage = () => `
         <section class="section-meet-os">
             <div class="page-padding">
                 <div class="container-large">
-                    <div class="padding-vertical padding-huge">
+                    <div class="padding-vertical">
                         <div class="layout-2-col is-for-meet-os">
                             <div class="meet-os-content">
                                 <div class="max-width-small">
@@ -163,7 +163,7 @@ export const renderTrackAndTracePage = () => `
         <section class="section-about">
             <div class="page-padding">
                 <div class="container-large">
-                    <div class="padding-vertical padding-huge">
+                    <div class="padding-vertical">
                         <div class="layout-2-col">
                             <div class="about-image-wrapper">
                                 <img src="${assetHref('images/LydiaRx_dispensation.jpg')}" class="about-image" alt="Dispensation" loading="lazy"/>
