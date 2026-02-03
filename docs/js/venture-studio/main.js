@@ -5,11 +5,11 @@ export const renderVentureStudioPage = () => `
         <section class="section_page_header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
-                    <div class="max-width-large">
+                    <div>
                         <h1>
                             Venture Studio
                         </h1>
-                        <div class="padding-bottom"></div>
+                        
                     </div>
                     <div class="max-width-medium">
                         <p class="Paragraph">Building the future of life sciences, together.</p>
@@ -25,9 +25,9 @@ export const renderVentureStudioPage = () => `
                 <div class="container-large">
                     <div class="padding-section-huge">
                         <div class="about_component">
-                            <div class="max-width-large">
-                                <h2 id="building-together">Co-Building the Future of Life Science</h2>
-                                <div class="padding-bottom"></div>
+                            <div>
+                                <h3 id="building-together">Co-Building the Future of Life Science</h3>
+                                
                                 <p>LydiaRx is launching a Venture Studio to partner with researchers and entrepreneurs in the life sciences. Our mission is to build impactful, market-focused spinoffs by combining your scientific vision with our strategic and operational expertise.</p>
                                 <p>We understand the challenges of translating deep-tech research into a viable business. Our model is designed to significantly de-risk this process. We collaborate with our partners to structure and secure financing for joint R&D projects, often leveraging public-private partnerships, allowing us to validate both the scientific and market potential of an idea before committing to a full-scale venture.</p>
                                 <p>Validated concepts follow one of two paths: they are either incubated within LydiaRx’s operational structure or launched as high-growth spin-off companies. In the spin-off model, we ensure the founding innovators lead the way with significant equity. We are focused on ventures built upon our AI R&D Studio, seeking innovations in AI-assisted software development for labs, intelligent agents for strategic research, automated systems for GxP regulatory assurance, and the pioneering of fully autonomous drug discovery laboratories.</p>
@@ -36,14 +36,14 @@ export const renderVentureStudioPage = () => `
 
                                 <div class="margin-vertical margin-xxlarge"></div>
 
-                                <h2 id="studio-advantage">The Venture Studio Advantage</h2>
-                                <div class="padding-bottom"></div>
+                                <h3 id="studio-advantage">The Venture Studio Advantage</h3>
+                                
                                 <p>Traditional venture capital often places bets on fledgling ideas, while incubators provide generalized guidance. The Venture Studio model is fundamentally different. We are co-founders. We don't just invest; we actively build companies from the ground up. By centralizing key functions—strategy, engineering, regulatory guidance, and business development—we provide an unparalleled launchpad for innovation. This results in a higher success rate, a shorter time-to-market, and more capital-efficient growth compared to standalone startups.</p>
 
                                 <div class="margin-vertical margin-xxlarge"></div>
 
-                                <h2 id="our-process">From Lab to Launch: Our Process</h2>
-                                <div class="padding-bottom"></div>
+                                <h3 id="our-process">From Lab to Launch: Our Process</h3>
+                                
                                 <p>Our structured approach transforms nascent ideas into high-growth, independent companies.</p>
                                <ul style="margin: 0 2rem">
                                     <li><strong>Phase 1: Ideation & Validation:</strong> We partner with innovators to rigorously analyze ideas. This includes market validation, intellectual property assessment, and defining a clear path to commercialization.</li>
@@ -54,8 +54,8 @@ export const renderVentureStudioPage = () => `
 
                                 <div class="margin-vertical margin-xxlarge"></div>
 
-                                <h2 id="de-risking-innovation">De-Risking Innovation, Maximizing Impact</h2>
-                                <div class="padding-bottom"></div>
+                                <h3 id="de-risking-innovation">De-Risking Innovation, Maximizing Impact</h3>
+                                
                                 <p>Our greatest asset in de-risking new ventures is the <strong>LydiaRx AI R&D Studio</strong>. Every company we build is founded upon this GxP-native platform. This immediately solves three critical early-stage challenges:</p>
                               <ul style="margin: 0 2rem">
                                     <li><strong>Technical Risk:</strong> Ventures don't start from scratch. They build on a validated, robust, and compliant technological foundation, reducing engineering timelines from years to months.</li>
@@ -65,8 +65,8 @@ export const renderVentureStudioPage = () => `
 
                                 <div class="margin-vertical margin-xxlarge"></div>
 
-                                <h2 id="shared-resources">Shared Expertise and Infrastructure</h2>
-                                <div class="padding-bottom"></div>
+                                <h3 id="shared-resources">Shared Expertise and Infrastructure</h3>
+                                
                                 <p>When you partner with LydiaRx Venture Studio, you gain more than a financial backer. You gain a dedicated team and a powerful ecosystem. Our partners receive:</p>
                              <ul style="margin: 0 2rem">
                                     <li><strong>Full access to the LydiaRx AI R&D Studio</strong> and its development capabilities.</li>
@@ -77,8 +77,8 @@ export const renderVentureStudioPage = () => `
 
                                 <div class="margin-vertical margin-xxlarge"></div>
 
-                                <h2 id="join-us">A Call to Pioneers</h2>
-                                <div class="padding-bottom"></div>
+                                <h3 id="join-us">A Call to Pioneers</h3>
+                                
                                 <p>The LydiaRx Venture Studio initiative is currently in a formative stage as we define our operational framework and consolidate budgets. However, we are ready to move quickly for the right opportunities. We are actively seeking partnerships with:</p>
                               <ul style="margin: 0 2rem">
                                     <li><strong>Academic Researchers</strong> with breakthrough discoveries ready for commercialization.</li>
