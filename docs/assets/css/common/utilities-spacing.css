@@ -370,8 +370,6 @@
 
 .epi_image {
     width: 100%;
-    border-top-right-radius: 5rem;
-    border-bottom-right-radius: 5rem;
     object-fit: cover;
     object-position: 0% 85%;
     height: 50vh;

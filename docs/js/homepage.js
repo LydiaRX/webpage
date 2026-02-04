@@ -176,23 +176,22 @@ export const renderHomepage = (root) => {
       <section class="section-featured">
         <div class="page-padding">
           <div class="container-large">
-            <div class="padding-vertical padding-huge">
-              <div class="padding-vertical padding-huge">
-                <div class="page-padding">
-                  <div class="container-large">
-                    <div class="cta_content">
-                      <h2>LRx Check, Consumer App <br></h2>
-                      <div class="button-wrapper">
-                        <a href="${pageHref(routes.demo)}" class="button is-grey w-button">Demo</a>
+                <div class="cta_featured container-background">
+                  <div class="page-padding">
+                    <div class="container-large">
+                      <div class="cta_content">
+                        <h2>LRx Check, Consumer App <br></h2>
+                        <div class="button-wrapper">
+                          <a href="${pageHref(routes.demo)}" class="button is-grey w-button">Demo</a>
+                        </div>
                       </div>
                     </div>
                   </div>
+                  <div class="cta_image-wrapper">
+                    <img src="${assetHref('images/lydiaRx_consumer app v1.png')}" loading="lazy" alt="Pharmaceutical Box being scanned by phone with LRx Check App" class="cta_image">
+                  </div>
                 </div>
-                <div class="cta_image-wrapper">
-                  <img src="${assetHref('images/lydiaRx_consumer app v1.png')}" loading="lazy" alt="Pharmaceutical Box being scanned by phone with LRx Check App" class="cta_image">
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
