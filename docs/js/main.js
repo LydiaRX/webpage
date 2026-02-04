@@ -41,7 +41,20 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (isHomePath()) {
     document.body.classList.add('is-homepage');
     renderHomepage(root);
-    const globe = initGlobe();
+    const isMobile = window.matchMedia('(max-width: 767px)').matches;
+    let globe = null;
+    if (!isMobile) {
+      globe = initGlobe();
+    } else {
+      const globeCanvas = document.getElementById('globe-canvas');
+      const globeOverlay = document.getElementById('globe-overlay');
+      if (globeCanvas) {
+        globeCanvas.style.display = 'none';
+      }
+      if (globeOverlay) {
+        globeOverlay.style.display = 'none';
+      }
+    }
     initNewsSlider(() => {
         if(globe && globe.resize) {
             globe.resize();
