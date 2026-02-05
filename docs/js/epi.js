@@ -35,6 +35,7 @@ export const renderEpiPage = () => {
                             <div class="about_image-wrapper">
                                 <img src="${assetHref('images/LydiaRx_ePI.jpeg')}" class="epi_image" alt="Person checking the ePI of a product"/>
                             </div>
+ <div class="padding-bottom"></div>
                             <div>
                                 <h3>LydiaRx's ePI Solution</h3>
                  
