@@ -150,12 +150,12 @@ const teamMembers =[
         title:"Chief Technology Lead",
         bio: "Sînică has a background in software development and research. He holds a PHD in Privacy Preserving Technologies and Blockchain, being the initiator and leader of the Open Source OpenDSU project, which has been developed and utilized in European research projects and enterprise blockchain solutions within the pharmaceutical industry. Sînică is also an experienced entrepreneur, having founded Axiologic Research in 2003, and has coordinated dozens of projects in roles such as CEO and Technical Product Manager for Axiologic\'s clients and collaborators. ",
     },
-    {
+    <!-- {
         imageSrc: "https://upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg",
         name: "Daud Farooq LL.B., LL.M., MA",
         title:"Director Legal and Corporate",
         bio: "Over nineteen years of experience as a Lawyer and thirteen as a Managing Partner in a UK Law Firm. Extensive knowledge of complex commercial transactions including cross border negotiation. Working for high profile clients in international dispute resolution involving complex financial and trust arrangements. Negotiated for clients with Governments and Sovereign Funds and has experience in funding arrangements and structuring projects for delivery.  Business interests in various countries and a strong presence in Iran, Pakistan and Turkey",
-    },
+    }, -->
     {
         imageSrc: "https://upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg",
         name: "Alexander Risbey",
