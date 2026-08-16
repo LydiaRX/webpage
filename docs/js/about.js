@@ -140,7 +140,7 @@ const teamMembers =[
     {
         imageSrc: "assets/images/najib-rehman.png",
         name: "Najib Rehman",
-        title: "CEO",
+        title: "CEO / CTO",
         position: 1,
         bio: "Najib is a data and analytics technology expert that has worked in life science for almost 20 years. From working within big pharma on their systems, processes and enabling capabilities through to being a founding member of ATMPS Ltd, a startup that developed the world\'s first patented blockchain solution in life sciences for tracking personalised medicine. He has spent time working with commercial and clinical functions on the challenges that they need to overcome to make data meaningful and thus drive value for the business, as well as building the foundation needed to take advantage of newer capabilities such as AI, ML etc. Furthermore, he has consulted and provided training support to pharma, biotech, university hospitals and academic science networks on key areas of data requirements, including AZ, BMS, Pfizer, Autolus, iDMT (Cambridge) and others in this and related life science areas. One final area of interest has been to work with teams in the workplace to get the best out of them, this interest has also led to the founding of a successful German based technology and consultancy start up operating across many sectors called Kokoro.",
     },
